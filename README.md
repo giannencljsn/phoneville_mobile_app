@@ -1,6 +1,6 @@
 # phoneville_mobile_app
 
-A new Flutter project.
+A personal project aiming to create an ecommerce mobile app for Phoneville Mobile Inc.
 
 ## Getting Started
 
