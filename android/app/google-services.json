@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57044961728",
+    "project_id": "phoneville-mobile-app",
+    "storage_bucket": "phoneville-mobile-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57044961728:android:7cabab05d71d1d86e7a025",
+        "android_client_info": {
+          "package_name": "com.example.phoneville_mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt-WVRE6M9mgZZ_m0zO_Efcq1n2fgwtfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
