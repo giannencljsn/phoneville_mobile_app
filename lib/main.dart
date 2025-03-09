@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:phoneville_mobile_app/views/screens/auth/login_screen.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   runApp(const MyApp());
 }
 
@@ -19,6 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: LoginScreen(),
+      routes: {"/": (context) => HomePage()},
     );
   }
 }
